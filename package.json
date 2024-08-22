@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/eugnis/react-native-timeline-flatlist/issues"
   },
-  "homepage": "https://github.com/eugnis/react-native-timeline-flatlist"
+  "homepage": "https://github.com/eugnis/react-native-timeline-flatlist",
+  "dependencies": {
+    "react-native-linear-gradient": "^2.8.3"
+  }
 }

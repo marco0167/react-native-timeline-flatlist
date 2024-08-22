@@ -30,6 +30,7 @@ declare module "react-native-timeline-flatlist" {
     iconDefault?: string | React.ReactNode;
     columnSidePadding?: number;
     columnSidemargin?: number;
+    gradientColors?: string[];
     style?: StyleProp<ViewStyle>;
     circleStyle?: StyleProp<ViewStyle>
     listViewStyle?: StyleProp<ViewStyle>;
