@@ -28,6 +28,8 @@ declare module "react-native-timeline-flatlist" {
     dotColor?: string;
     dotSize?: number;
     iconDefault?: string | React.ReactNode;
+    columnSidePadding?: number;
+    columnSidemargin?: number;
     style?: StyleProp<ViewStyle>;
     circleStyle?: StyleProp<ViewStyle>
     listViewStyle?: StyleProp<ViewStyle>;
