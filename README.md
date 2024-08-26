@@ -342,6 +342,8 @@ render(){
 | description         | string or object                   | null                              | event description                                   |
 | lineWidth           | int                                | same as lineWidth of 'Timeline'   | event line width                                    |
 | lineColor           | string                             | same as lineColor of 'Timeline'   | event line color                                    |
+| columnSidePadding      | int                                 | 20                         | custom event line side padding                                   |
+| columnSideMargin       | int                                 | 20                         | custom event line side margin                                    |
 | eventContainerStyle | object                             | null                              | custom styles of line                               |
 | circleSize          | int                                | same as circleSize of 'Timeline'  | event circle size                                   |
 | circleColor         | string                             | same as circleColor of 'Timeline' | event circle color                                  |
@@ -364,6 +366,8 @@ render(){
 | dotColor               | string                              | 'white'                    | timeline dot color (innerCircle = 'dot')                         |
 | dotSize                | int                                 | circleSize / 2             | timeline dot size (innerCircle = 'dot')                          |
 | iconDefault (or icon)  | obj(image source) or React.Element  | same as icon of 'Timeline' | default event icon                                               |
+| columnSidePadding      | int                                 | 20                         | custom line side padding                                         |
+| columnSideMargin       | int                                 | 20                         | custom line side margin                                          |
 | style                  | object                              | null                       | custom styles of Timeline container                              |
 | listViewStyle          | object                              | null                       | custom styles of inner ListView                                  |
 | listViewContainerStyle | object                              | null                       | custom styles of inner ListView container                        |
